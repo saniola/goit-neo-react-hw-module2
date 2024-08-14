@@ -1,6 +1,12 @@
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
-const Feedback = ({ good, neutral, bad, totalFeedback, positivePercentage }) => {
+const Feedback = ({
+  good,
+  neutral,
+  bad,
+  totalFeedback,
+  positivePercentage,
+}) => {
   return (
     <div>
       <p>Good: {good}</p>
